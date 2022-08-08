@@ -1,0 +1,35 @@
+.panel {
+  display: flex;
+  border: solid gray;
+  padding: 0px 10px 0px 10px;
+  gap: 8px;
+  align-items: center;
+  width: 550px;
+  height: 100px;
+}
+
+.elemento {
+  background-color: grey;
+  width: 50px;
+  height: 50px;
+  flex-grow: 1;
+  align-self: flex-start;
+}
+
+.alternative {
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+  flex-grow: 1;
+  align-self: flex-end;
+}
+
+.panel div:first-child {
+  background-color: red;
+  align-self: center;
+}
+
+.panel div:nth-child(9) {
+  background-color: red;
+  align-self: center;
+}

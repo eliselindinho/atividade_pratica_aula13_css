@@ -1,0 +1,27 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50px;
+  height: 300px;
+  border: solid 1px black;
+  justify-content: space-between;
+}
+
+.panel > div {
+  background-color: grey;
+  align-content: center;
+  column-gap: 10px;
+  padding: 16px;
+}
+.elemento {
+  flex-grow: 2;
+}
+
+.maior {
+  flex-grow: 5;
+}
+
+.menor {
+  flex-grow: 1;
+}
